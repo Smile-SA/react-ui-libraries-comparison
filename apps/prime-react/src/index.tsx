@@ -3,16 +3,12 @@ import ReactDOM from "react-dom/client";
 import { PrimeReactProvider } from 'primereact/api';
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 
-import DatePicker from "./DatePicker";
-import Table from "./Table";
-import Toast from "./Toast";
+import App from "./App";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <PrimeReactProvider>
-      <DatePicker />
-      <Table/>
-      <Toast/>
+      <App />
     </PrimeReactProvider>
   </React.StrictMode>
 );
